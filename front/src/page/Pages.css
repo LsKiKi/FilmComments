@@ -1,0 +1,91 @@
+
+/*------------------有关影评内容的部分样式---------------*/
+
+.FC_layout_contain{
+    width: 80%;
+    margin-left: 20%;
+}
+
+
+.FC_comment_add_frame{
+    min-width: 600px;
+    min-height: 360px;
+    margin-bottom: 20px;
+    background: #CCCCCC url(../image/5.png) no-repeat fixed center center;
+}
+
+.FC_comment_add_title_frame{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FC_comment_add_title_text{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 15px;
+}
+
+.input_frame{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.textArea, #content{
+    width: 90%;
+    min-height: 20px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.film_name, .film_content, .film_feel{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.film_start{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+textarea.ant-input{
+    width: 90%;
+    height: 15px;
+}
+
+#name, #content, #feel{
+    width: 90%;
+}
+
+#content, #feel{
+    height: 80px;
+}
+
+
+
+
+.FC_comment_add_btn{
+    width: 86px;
+    height: 32px;
+    float: right;
+    margin-right: 20px;
+    margin-top:10px;
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+.FC_comments{
+    min-width: 600px;
+    padding: 24px;
+    background: #fff;
+    text-align: center;
+}
+
+.FC_layout_unused{
+    width: 10%;
+}

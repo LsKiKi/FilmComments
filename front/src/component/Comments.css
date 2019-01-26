@@ -1,0 +1,109 @@
+.FC_comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.FC_comment_frame{
+    background-color: rgba(95,158,160,0.6);
+}
+
+
+.ant-comment{
+    width: 100%;
+}
+
+.ant-comment-inner{
+    width: 100%;
+    padding: 16px 0 0 0;
+}
+
+/*动态信息里面的头像*/
+.ant-comment-avatar img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+
+.ant-form-item{
+    margin-bottom: 6px;
+}
+
+.ant-list-header{
+    text-align: start;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.ant-list , .ant-list-split{
+    margin-left: 30px;
+}
+
+/*动态里面的内容*/
+.ant-comment-content-detail{
+    text-align: start;
+}
+.ant-comment-content-detail p{
+    margin-right: 4px;
+}
+
+/*点赞收藏评论图标*/
+.ant-comment-actions{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.FC_comment_add_box{
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.FC_comment_add_box_top{
+    width: 95%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#FC_comment_textArea{
+    width: 90%;
+    margin-left: 5px;
+}
+
+.FC_newComment_add_btn{
+    width: 86px;
+    height: 32px;
+    align-self: flex-end;
+    margin-right: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+.ant-btn-primary:hover, .ant-btn-primary:focus{
+    background-color: lightcoral;
+    border-color: lightcoral;
+}
+
+.FC_new_Comments{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.FC_new_Comment_frame{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #CCCCCC;
+}

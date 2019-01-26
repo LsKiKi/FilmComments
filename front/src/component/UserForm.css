@@ -1,0 +1,15 @@
+.FC_user_frame{
+    width: 300px;
+    margin: 9px;
+}
+
+.ant-avatar{
+    width: 48px;
+    height: 48px;
+}
+
+.FC_userForm_btn{
+    background-color: #18acffdb;
+    border-color: #18acffdb;
+}
+

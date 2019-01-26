@@ -1,0 +1,51 @@
+/*----------------------整个主页的样式------------------*/
+.FC_home_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*------------------除去顶部导航栏的样式----------------*/
+.ant-layout {
+    width: 90%;
+    //margin-top: 30px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+
+}
+
+/*-------------------侧边导航栏的样式-----------------*/
+.FC_layout_sider{
+    width: 10%;
+    height: 100vh;
+    overflow: auto;
+    background-color: transparent;
+    position: fixed;
+    left: 5%;
+}
+
+.FC_sider_menu{
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+.ant-menu{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(35, 197, 189, 0.3);
+}
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+    border-right: 1px solid transparent;
+}
+
+.FC_sider_btn{
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.FC_layout_contain{
+    height: 100%;
+}

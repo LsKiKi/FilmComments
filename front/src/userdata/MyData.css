@@ -1,0 +1,63 @@
+.FC_data_frame{
+    width: 100%;
+}
+
+
+.FC_title{
+    height: 198px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background: #CCCCCC url(../image/5.png) no-repeat fixed center center;
+}
+
+
+.FC_title_top{
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    border: 1px solid #CCCCCC;
+    background-color: white;
+}
+
+.FC_title_top_headerPic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.FC_data_content{
+    background-color: white;
+}
+
+
+.FC_content{
+    width: 100%;
+    background-color: rgb(242,242,245);
+}
+
+.FC_data_tab{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FC_users_text{
+    align-self: flex-start;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.FC_user_card{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    //justify-content: center;
+}
+
